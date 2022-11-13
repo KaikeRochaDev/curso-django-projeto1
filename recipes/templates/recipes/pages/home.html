@@ -5,16 +5,12 @@
 
     {%include 'recipes/partials/search.html'%}
 
-    {%include 'recipes/partials/main.html'%}
-
-    <footer class="main-footer">
-        <div class="developer">
-            <a href="https://www.github.com/KaikeRochaDev/" target="_blank" rel="noreferrer no">By Kaike Rocha</a>
+    <div class="main-content-container">
+        <div class="main-content main-content-list container">
+            {%include 'recipes/partials/main.html'%}
         </div>
+    </div>
 
-        <div class="powered">
-            <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer noope">Powered by Django</a>
-        </div>
-    </footer>
+    {%include 'recipes/partials/footer.html'%}
 </body>
 </html>
