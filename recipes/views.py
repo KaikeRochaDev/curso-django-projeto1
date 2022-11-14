@@ -5,9 +5,9 @@ def home(request):
     return render(request, 'recipes/pages/home.html', context={
         'name': 'Kaike Rocha',
     })
-    
+
+
 def recipe(request, id):
-    return render(request, 'recipes/pages/home.html', context={
+    return render(request, 'recipes/pages/recipe-view.html', context={
         'name': 'Kaike Rocha',
     })
-
